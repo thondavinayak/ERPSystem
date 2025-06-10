@@ -1,0 +1,14 @@
+-- Create the students table
+CREATE TABLE IF NOT EXISTS students (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    age INTEGER NOT NULL,
+    grade TEXT NOT NULL
+);
+
+-- Insert sample data
+INSERT INTO students (name, age, grade) VALUES ('Alice Johnson', 20, 'A');
+INSERT INTO students (name, age, grade) VALUES ('Bob Smith', 22, 'B');
+INSERT INTO students (name, age, grade) VALUES ('Charlie Brown', 19, 'C');
+INSERT INTO students (name, age, grade) VALUES ('David Lee', 21, 'B+');
+INSERT INTO students (name, age, grade) VALUES ('Emily White', 23, 'A-');
